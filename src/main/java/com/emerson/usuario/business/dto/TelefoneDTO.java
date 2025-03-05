@@ -3,6 +3,7 @@ package com.emerson.usuario.business.dto; // Define o pacote onde essa classe es
 // Importação das anotações do Lombok para reduzir código repetitivo
 import lombok.*;
 
+
 @Setter // Gera automaticamente os métodos "set" para todos os atributos da classe
 @Getter // Gera automaticamente os métodos "get" para todos os atributos da classe
 @AllArgsConstructor // Gera automaticamente um construtor com todos os atributos
