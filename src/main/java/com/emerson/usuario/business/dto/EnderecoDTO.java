@@ -8,6 +8,7 @@ import lombok.*;
 @AllArgsConstructor // Gera automaticamente um construtor com todos os atributos
 @NoArgsConstructor // Gera automaticamente um construtor sem parâmetros
 @Builder // Permite usar o padrão Builder para criar objetos dessa classe
+
 public class EnderecoDTO { // Declaração da classe EnderecoDTO (Data Transfer Object)
 
     private String rua; // Armazena o nome da rua
