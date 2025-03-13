@@ -14,6 +14,7 @@ import java.util.List;
 
 public class UsuarioDTO { // Declaração da classe UsuarioDTO (Data Transfer Object)
 
+
     private String nome; // Armazena o nome do usuário
     private String email; // Armazena o e-mail do usuário
     private String senha; // Armazena a senha do usuário
