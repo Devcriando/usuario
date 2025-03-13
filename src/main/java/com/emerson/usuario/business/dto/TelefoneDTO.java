@@ -11,6 +11,7 @@ import lombok.*;
 @Builder // Permite usar o padrão Builder para criar objetos dessa classe
 public class TelefoneDTO { // Declaração da classe TelefoneDTO (Data Transfer Object)
 
+    private Long id;
     private String numero; // Armazena o número de telefone (ex: 987654321)
     private String ddd; // Armazena o código de área (ex: 11 para São Paulo)
 }

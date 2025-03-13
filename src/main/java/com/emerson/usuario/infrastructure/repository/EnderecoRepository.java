@@ -6,6 +6,8 @@ import com.emerson.usuario.infrastructure.entity.Endereco;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.Optional;
+
 /**
  * Interface responsável pela manipulação dos dados de Endereço no banco de dados.
  * Extende o JpaRepository, o que proporciona métodos prontos para operações como salvar, deletar e consultar
@@ -16,6 +18,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository // Anotação que indica que a interface é um repositório de dados
 public interface EnderecoRepository extends JpaRepository<Endereco, String> {
+    Optional<Object> findById(long idEndereco);
     // O JpaRepository fornece métodos para realizar operações CRUD (Create, Read, Update, Delete)
     // na tabela de Endereços, sem precisar escrever as implementações.
     // O Endereco é o tipo de entidade que será manipulado, e o "String" é o tipo do identificador (ID) da entidade.

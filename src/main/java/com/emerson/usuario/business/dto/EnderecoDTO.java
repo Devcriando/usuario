@@ -11,9 +11,10 @@ import lombok.*;
 
 public class EnderecoDTO { // Declaração da classe EnderecoDTO (Data Transfer Object)
 
+    private Long id;
     private String rua; // Armazena o nome da rua
     private String cep; // Armazena o CEP do endereço
-    private long numero; // Armazena o número da residência
+    private Long numero; // Armazena o número da residência
     private String bairro; // Armazena o nome do bairro
     private String cidade; // Armazena o nome da cidade
     private String estado; // Armazena o nome do estado
